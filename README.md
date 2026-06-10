@@ -40,7 +40,8 @@ Responsible for:
 
 ## Penalty Function
 
-Penalty = Sum of Assigned Slot Numbers
+Penalty = Σ (Task Weight × Assigned Slot Index)
+Note: Slot index starts from 1 and penalty increases with delay of task execution.
 
 Example:
 
@@ -71,3 +72,6 @@ Final Assignment
 {T1=1, T2=2, T3=1}
 
 Penalty : 4.0
+
+## Note
+This is an individual project developed by Vishal Chavare.
